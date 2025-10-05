@@ -1,0 +1,8 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <filter id="shadow"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.3"/></filter>
+  </defs>
+  <polygon points="60,5 111,35 111,85 60,115 9,85 9,35" fill="#0ea5e9" filter="url(#shadow)"/>
+  <text x="50%" y="58%" text-anchor="middle" font-size="46" font-family="Verdana, Arial" fill="white" font-weight="700">MB</text>
+</svg>
