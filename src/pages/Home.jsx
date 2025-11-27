@@ -5,12 +5,10 @@
  * - CTA to About page
  * - Shows a small alert if a contact form was submitted (reads from localStorage)
  */
-import { Link, useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 export default function Home(){
   const [alert, setAlert] = useState(null);
-  const navigate = useNavigate();
 
   useEffect(()=>{
     // read and clear contact submission data
