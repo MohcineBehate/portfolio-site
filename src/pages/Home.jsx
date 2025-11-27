@@ -6,7 +6,7 @@
  * - Shows a small alert if a contact form was submitted (reads from localStorage)
  */
 import { useEffect, useState } from 'react';
-
+import { Link } from "react-router-dom";   // 🔥 AJOUT OBLIGATOIRE POUR CORRIGER L’ERREUR
 export default function Home(){
   const [alert, setAlert] = useState(null);
 
